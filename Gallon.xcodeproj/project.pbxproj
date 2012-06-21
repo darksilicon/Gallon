@@ -16,6 +16,7 @@
 		F8FB305D1592D9F900B261E5 /* Gallon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */; };
 		F8FB30641592DAC200B261E5 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30631592DAC200B261E5 /* Notes.rtf */; };
 		F8FB30671592E19300B261E5 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB30661592E19300B261E5 /* TestData.m */; };
+		F8FB306A1592EBE900B261E5 /* Gallon.tif in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30691592EBE900B261E5 /* Gallon.tif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F8FB30631592DAC200B261E5 /* Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 		F8FB30651592E19300B261E5 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
 		F8FB30661592E19300B261E5 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
+		F8FB30691592EBE900B261E5 /* Gallon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Gallon.tif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				F8FB30551592D9F900B261E5 /* GalAppDelegate.h */,
 				F8FB30561592D9F900B261E5 /* GalAppDelegate.m */,
 				F8FB30581592D9F900B261E5 /* MainMenu.xib */,
+				F8FB30691592EBE900B261E5 /* Gallon.tif */,
 				F8FB30651592E19300B261E5 /* TestData.h */,
 				F8FB30661592E19300B261E5 /* TestData.m */,
 				F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */,
@@ -148,6 +151,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = F8FB30341592D9F900B261E5;
 			productRefGroup = F8FB30401592D9F900B261E5 /* Products */;
@@ -168,6 +172,7 @@
 				F8FB30541592D9F900B261E5 /* Credits.rtf in Resources */,
 				F8FB305A1592D9F900B261E5 /* MainMenu.xib in Resources */,
 				F8FB30641592DAC200B261E5 /* Notes.rtf in Resources */,
+				F8FB306A1592EBE900B261E5 /* Gallon.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
