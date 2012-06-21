@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8FB30441592D9F900B261E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FB30431592D9F900B261E5 /* Cocoa.framework */; };
+		F8FB304E1592D9F900B261E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8FB304C1592D9F900B261E5 /* InfoPlist.strings */; };
+		F8FB30501592D9F900B261E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB304F1592D9F900B261E5 /* main.m */; };
+		F8FB30541592D9F900B261E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30521592D9F900B261E5 /* Credits.rtf */; };
+		F8FB30571592D9F900B261E5 /* GalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB30561592D9F900B261E5 /* GalAppDelegate.m */; };
+		F8FB305A1592D9F900B261E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30581592D9F900B261E5 /* MainMenu.xib */; };
+		F8FB305D1592D9F900B261E5 /* Gallon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8FB303F1592D9F900B261E5 /* Gallon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gallon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FB30431592D9F900B261E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F8FB30461592D9F900B261E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F8FB30471592D9F900B261E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8FB30481592D9F900B261E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8FB304B1592D9F900B261E5 /* Gallon-Info.plist */ = {isa = PBXFileReference; path = "Gallon-Info.plist"; sourceTree = "<group>"; };
+		F8FB304D1592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8FB304F1592D9F900B261E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8FB30511592D9F900B261E5 /* Gallon-Prefix.pch */ = {isa = PBXFileReference; path = "Gallon-Prefix.pch"; sourceTree = "<group>"; };
+		F8FB30531592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F8FB30551592D9F900B261E5 /* GalAppDelegate.h */ = {isa = PBXFileReference; path = GalAppDelegate.h; sourceTree = "<group>"; };
+		F8FB30561592D9F900B261E5 /* GalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalAppDelegate.m; sourceTree = "<group>"; };
+		F8FB30591592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F8FB305C1592D9F900B261E5 /* Gallon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gallon.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8FB303C1592D9F900B261E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FB30441592D9F900B261E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8FB30341592D9F900B261E5 = {
+			isa = PBXGroup;
+			children = (
+				F8FB30491592D9F900B261E5 /* Gallon */,
+				F8FB30421592D9F900B261E5 /* Frameworks */,
+				F8FB30401592D9F900B261E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8FB30401592D9F900B261E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB303F1592D9F900B261E5 /* Gallon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8FB30421592D9F900B261E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB30431592D9F900B261E5 /* Cocoa.framework */,
+				F8FB30451592D9F900B261E5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8FB30451592D9F900B261E5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB30461592D9F900B261E5 /* AppKit.framework */,
+				F8FB30471592D9F900B261E5 /* CoreData.framework */,
+				F8FB30481592D9F900B261E5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F8FB30491592D9F900B261E5 /* Gallon */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB30551592D9F900B261E5 /* GalAppDelegate.h */,
+				F8FB30561592D9F900B261E5 /* GalAppDelegate.m */,
+				F8FB30581592D9F900B261E5 /* MainMenu.xib */,
+				F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */,
+				F8FB304A1592D9F900B261E5 /* Supporting Files */,
+			);
+			path = Gallon;
+			sourceTree = "<group>";
+		};
+		F8FB304A1592D9F900B261E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB304B1592D9F900B261E5 /* Gallon-Info.plist */,
+				F8FB304C1592D9F900B261E5 /* InfoPlist.strings */,
+				F8FB304F1592D9F900B261E5 /* main.m */,
+				F8FB30511592D9F900B261E5 /* Gallon-Prefix.pch */,
+				F8FB30521592D9F900B261E5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8FB303E1592D9F900B261E5 /* Gallon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FB30601592D9F900B261E5 /* Build configuration list for PBXNativeTarget "Gallon" */;
+			buildPhases = (
+				F8FB303B1592D9F900B261E5 /* Sources */,
+				F8FB303C1592D9F900B261E5 /* Frameworks */,
+				F8FB303D1592D9F900B261E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gallon;
+			productName = Gallon;
+			productReference = F8FB303F1592D9F900B261E5 /* Gallon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8FB30361592D9F900B261E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Gal;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F8FB30391592D9F900B261E5 /* Build configuration list for PBXProject "Gallon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8FB30341592D9F900B261E5;
+			productRefGroup = F8FB30401592D9F900B261E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8FB303E1592D9F900B261E5 /* Gallon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8FB303D1592D9F900B261E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FB304E1592D9F900B261E5 /* InfoPlist.strings in Resources */,
+				F8FB30541592D9F900B261E5 /* Credits.rtf in Resources */,
+				F8FB305A1592D9F900B261E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8FB303B1592D9F900B261E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FB30501592D9F900B261E5 /* main.m in Sources */,
+				F8FB30571592D9F900B261E5 /* GalAppDelegate.m in Sources */,
+				F8FB305D1592D9F900B261E5 /* Gallon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8FB304C1592D9F900B261E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FB304D1592D9F900B261E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8FB30521592D9F900B261E5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FB30531592D9F900B261E5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F8FB30581592D9F900B261E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FB30591592D9F900B261E5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8FB305E1592D9F900B261E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8FB305F1592D9F900B261E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8FB30611592D9F900B261E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gallon/Gallon-Prefix.pch";
+				INFOPLIST_FILE = "Gallon/Gallon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8FB30621592D9F900B261E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gallon/Gallon-Prefix.pch";
+				INFOPLIST_FILE = "Gallon/Gallon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8FB30391592D9F900B261E5 /* Build configuration list for PBXProject "Gallon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FB305E1592D9F900B261E5 /* Debug */,
+				F8FB305F1592D9F900B261E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FB30601592D9F900B261E5 /* Build configuration list for PBXNativeTarget "Gallon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FB30611592D9F900B261E5 /* Debug */,
+				F8FB30621592D9F900B261E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8FB305C1592D9F900B261E5 /* Gallon.xcdatamodel */,
+			);
+			currentVersion = F8FB305C1592D9F900B261E5 /* Gallon.xcdatamodel */;
+			path = Gallon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8FB30361592D9F900B261E5 /* Project object */;
+}
