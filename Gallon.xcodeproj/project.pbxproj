@@ -14,6 +14,8 @@
 		F8FB30571592D9F900B261E5 /* GalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB30561592D9F900B261E5 /* GalAppDelegate.m */; };
 		F8FB305A1592D9F900B261E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30581592D9F900B261E5 /* MainMenu.xib */; };
 		F8FB305D1592D9F900B261E5 /* Gallon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */; };
+		F8FB30641592DAC200B261E5 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F8FB30631592DAC200B261E5 /* Notes.rtf */; };
+		F8FB30671592E19300B261E5 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FB30661592E19300B261E5 /* TestData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		F8FB30461592D9F900B261E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F8FB30471592D9F900B261E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F8FB30481592D9F900B261E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F8FB304B1592D9F900B261E5 /* Gallon-Info.plist */ = {isa = PBXFileReference; path = "Gallon-Info.plist"; sourceTree = "<group>"; };
+		F8FB304B1592D9F900B261E5 /* Gallon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gallon-Info.plist"; sourceTree = "<group>"; };
 		F8FB304D1592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8FB304F1592D9F900B261E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F8FB30511592D9F900B261E5 /* Gallon-Prefix.pch */ = {isa = PBXFileReference; path = "Gallon-Prefix.pch"; sourceTree = "<group>"; };
+		F8FB30511592D9F900B261E5 /* Gallon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gallon-Prefix.pch"; sourceTree = "<group>"; };
 		F8FB30531592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F8FB30551592D9F900B261E5 /* GalAppDelegate.h */ = {isa = PBXFileReference; path = GalAppDelegate.h; sourceTree = "<group>"; };
+		F8FB30551592D9F900B261E5 /* GalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalAppDelegate.h; sourceTree = "<group>"; };
 		F8FB30561592D9F900B261E5 /* GalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalAppDelegate.m; sourceTree = "<group>"; };
 		F8FB30591592D9F900B261E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F8FB305C1592D9F900B261E5 /* Gallon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gallon.xcdatamodel; sourceTree = "<group>"; };
+		F8FB30631592DAC200B261E5 /* Notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
+		F8FB30651592E19300B261E5 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		F8FB30661592E19300B261E5 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +92,10 @@
 				F8FB30551592D9F900B261E5 /* GalAppDelegate.h */,
 				F8FB30561592D9F900B261E5 /* GalAppDelegate.m */,
 				F8FB30581592D9F900B261E5 /* MainMenu.xib */,
+				F8FB30651592E19300B261E5 /* TestData.h */,
+				F8FB30661592E19300B261E5 /* TestData.m */,
 				F8FB305B1592D9F900B261E5 /* Gallon.xcdatamodeld */,
+				F8FB30631592DAC200B261E5 /* Notes.rtf */,
 				F8FB304A1592D9F900B261E5 /* Supporting Files */,
 			);
 			path = Gallon;
@@ -159,6 +167,7 @@
 				F8FB304E1592D9F900B261E5 /* InfoPlist.strings in Resources */,
 				F8FB30541592D9F900B261E5 /* Credits.rtf in Resources */,
 				F8FB305A1592D9F900B261E5 /* MainMenu.xib in Resources */,
+				F8FB30641592DAC200B261E5 /* Notes.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +181,7 @@
 				F8FB30501592D9F900B261E5 /* main.m in Sources */,
 				F8FB30571592D9F900B261E5 /* GalAppDelegate.m in Sources */,
 				F8FB305D1592D9F900B261E5 /* Gallon.xcdatamodeld in Sources */,
+				F8FB30671592E19300B261E5 /* TestData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
